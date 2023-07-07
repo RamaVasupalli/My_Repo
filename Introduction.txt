@@ -1,0 +1,130 @@
+===============================================================================================================
+AWS Account Creation 
+===============================================================================================================
+DevOps: Dev - Development Team - Developers
+                                   * Backend   - Java/dot net/Python
+                                   * Frontend  - Web developement - html, css, nodejs, angularjs
+                                   * Database Developers  - SQL/PLSQL Queries
+        Ops - Operational Team - DevOps Engineers
+                                  - Cloud and DevOps tools
+
+DevOps: DevOps is a practice/process/culture where Development and Operational team work together/collabrate for building a product/software/Website using proper lifecyle right from planning/Designing till the product/software/Website goes live in production/market.
+
+==========================================================
+DevOps Interactions with Different Teams :
+==========================================================
+1. Business/Product Team - Product Managers
+
+* Responsible for gathering requirements from client
+* Features of Website - Login, logout, Payment methods, invoice Acknowledgment, Add to cart etc
+* Infrastructure -  Scale on request on website - no of logins expected, AWS Services , DevOps tools etc
+==========================================================
+2. Development Team : Developers ( backend, frontend, DB )
+    * Backend   - Java/dot net/Python
+    * Frontend  - Web developement - html, css, nodejs, angularjs
+    * Database Developers  - SQL/PLSQL Queries
+
+Development of code for building application.
+Languages : Java, NodeJS, SQL Queries
+==========================================================
+3. Operational Team:  DevOps Engineers
+
+* Responsible for all managing all cloud operations.
+* Manage all DevOps tool for building and deploying applications.
+==========================================================
+4. QA Team : Quality Assurance Engineers
+
+* Responsible for Performing Testing.
+* Functional Testing , load Testing & Performance Testing
+=======================================================================================================================
+DevOps Lifecycle :
+======================================================================================================================
+1. Continuous planning: Requirement gathering phase where all the requirements are gather by clients.
+           * Features, design,language for coding, Infrastructure - cloud/Datacenter, Budget, timeline for completed product/website etc
+           * Product Team is responsible for planning for all the client requirements.
+           * Product Team assigns the work in form of user stories via tickets.
+
+Ticketing Tools: JIRA, Service now, HP ALM, Rally etc
+
+Teams: Product Team               
+======================================================================================================================
+2. Continuous code and Build: Developers will write/develop the code and store in Github.
+                              Build operations for compiling the code and Generating final artifact(JAR/WAR/ZIP).
+
+JAR - Java Archive
+WAR - Web Archive
+
+Tools : Git/Github - Tracking the changes and storing the code(Files, directories, images, logs etc)
+        Maven - Perform Build operations like compile, test, bundle the code etc
+        Nexus - Artifactory manager which is used for storing artifacts(Jar/war/ear/bar) in proper format.
+                              
+Teams: Developement Team and DevOps Team
+=========================================================================================================================
+3. Continuous Integration: Continuous Integration is process which we connect one tool with another tool.
+                           In continuous Integration, we continously building , deploying, upgrading the applications.
+
+Tools: Jenkins
+Team: DevOps Team
+=============================================================================================================================
+4. Continuous Testing: Continuous Testing is process of checking the functionality and performance of website/product/software.
+
+Tools : 
+  DevOps Team - SonarQube - Code quality or code inspection tool - Duplication of code, Errors(bugs), vulnerabailities(virus) etc
+  QA Team - Functionality Testing
+            load Testing
+            Performance Testing 
+ 
+Teams: QA and DevOps Team
+=========================================================================================================================
+5. Continuous Deployment : Continuous Deployment is process where we put the website/product/software in particular and start the service for checking the functionality and using the features.
+
+Tools : Ansible  - Automation tool or configuration Management tool
+        Docker & Kubernetes - Containization
+        Terraform - Infrastructure Automation
+        Tomcat - Deployment tool for launching application
+        Jenkins - Continuous Deployment tool for Deployment activities
+
+Teams: DevOps Team
+==================================================================================================================
+6. Continuous Feedback: Feedback is important for improving the customer/end-user experience.
+
+External Feedback: customer/end-user 
+Internal Feedback : Between teams
+
+Tools : Google or feedback forms
+
+Team: Product Team
+=======================================================================================================================
+7. Continuous Improvement : Improvement is used for enhancing the customer/end-user experience with new features/improvements/upgrades in the website/product/software 
+=======================================================================================================================
+8. Continuous monitoring: Continuous monitoring is used for checking the behaviour of website/product/software to verify ho well the website/product/software is working.
+
+Tools : Log monitoring - ELK stack - Elasticsearch, logstash, kibana, filebeat
+        App Monitoring  - Grafana, prometheus, alertmanager, exporters
+========================================================================================================================
+Water Model : Build and Release Technology
+              Build and release engineer
+
+=========================================================================================================================
+Agile Model : DevOps 
+              DevOps Engineer
+===========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
